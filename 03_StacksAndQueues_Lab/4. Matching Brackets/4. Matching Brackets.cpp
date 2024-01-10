@@ -25,32 +25,5 @@ int main()
         }
     }
 
-
-
-    /*istringstream inp(input);
-
-    string op;
-
-    while (inp >> op) {
-        if (op == ")") {
-            while (true) {
-                string temp = seq.top();
-                seq.pop();
-                print.push(temp);
-                if (temp == "(") {
-                    break;
-                }
-            }
-            string p;
-            while (!print.empty()) {
-                cout << print.top();
-                print.pop();
-            }
-            cout << endl;
-        }
-        else {
-            seq.push(op);
-        }
-    }*/
     return 0;
 }
