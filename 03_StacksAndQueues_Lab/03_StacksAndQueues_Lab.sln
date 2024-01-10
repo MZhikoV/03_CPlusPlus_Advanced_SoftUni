@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2. Stack Sum", "2. Stack Su
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3. Simple Calculator", "3. Simple Calculator\3. Simple Calculator.vcxproj", "{D7A25615-C5E6-4009-8CCA-CAE26F16B65C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4. Matching Brackets", "4. Matching Brackets\4. Matching Brackets.vcxproj", "{A9249BF1-0141-4D37-BF9E-C7E17F2C9210}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{D7A25615-C5E6-4009-8CCA-CAE26F16B65C}.Release|x64.Build.0 = Release|x64
 		{D7A25615-C5E6-4009-8CCA-CAE26F16B65C}.Release|x86.ActiveCfg = Release|Win32
 		{D7A25615-C5E6-4009-8CCA-CAE26F16B65C}.Release|x86.Build.0 = Release|Win32
+		{A9249BF1-0141-4D37-BF9E-C7E17F2C9210}.Debug|x64.ActiveCfg = Debug|x64
+		{A9249BF1-0141-4D37-BF9E-C7E17F2C9210}.Debug|x64.Build.0 = Debug|x64
+		{A9249BF1-0141-4D37-BF9E-C7E17F2C9210}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9249BF1-0141-4D37-BF9E-C7E17F2C9210}.Debug|x86.Build.0 = Debug|Win32
+		{A9249BF1-0141-4D37-BF9E-C7E17F2C9210}.Release|x64.ActiveCfg = Release|x64
+		{A9249BF1-0141-4D37-BF9E-C7E17F2C9210}.Release|x64.Build.0 = Release|x64
+		{A9249BF1-0141-4D37-BF9E-C7E17F2C9210}.Release|x86.ActiveCfg = Release|Win32
+		{A9249BF1-0141-4D37-BF9E-C7E17F2C9210}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
