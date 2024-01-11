@@ -26,7 +26,7 @@ int main()
     cin >> capacity;
 
     int sum = 0;
-    int racks = 1;
+    int racks = 0;
 
     while (!clothes.empty()) {
         sum += clothes.top();
@@ -39,6 +39,10 @@ int main()
             sum = 0;
         }
         clothes.pop();
+    }
+
+    if (sum > 0) {
+        racks++;
     }
 
     cout << racks << endl;
