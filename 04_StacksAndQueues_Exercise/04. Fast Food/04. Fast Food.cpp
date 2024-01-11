@@ -37,7 +37,7 @@ int main()
 
     while (!orders.empty()) {
         food -= orders.front();
-        if (food <= 0 && !notenough) {
+        if (food < 0 && !notenough) {
             cout << "Orders left: ";
             notenough = true;
         }
@@ -46,7 +46,7 @@ int main()
         }
         orders.pop();
     }
-    if (food > 0) {
+    if (food >= 0) {
         cout << "Orders complete" << endl;
     }
 return 0;
