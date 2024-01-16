@@ -36,6 +36,10 @@ int main()
 	cout << "=======================================================";
 	cout << endl;
 
+	cityPopulations.erase("Pliska");
+
+
+
 	for (pair<string, int> element : cityPopulations) {
 		cout << element.first << ' ' << element.second << endl;
 	}
@@ -43,5 +47,19 @@ int main()
 	cout << endl;
 	cout << "=======================================================";
 	cout << endl;
+
+
+	cout << "Enter a city name to see its population:" << endl;
+	string searchCity;
+	getline(cin, searchCity);
+
+	map<string, int>::iterator found = cityPopulations.find(searchCity);
+
+	if (found != cityPopulations.end()) {
+		cout << found->first << ' ' << found->second << endl;
+	}
+	else {
+		cout << "There is no data for such city :" << searchCity << endl;
+	}
 
 }
