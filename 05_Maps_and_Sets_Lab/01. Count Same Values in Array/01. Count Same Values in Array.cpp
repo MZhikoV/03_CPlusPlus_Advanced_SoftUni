@@ -3,6 +3,7 @@
 #include <map>
 #include <sstream>
 #include <vector>
+#include<algorithm>
 
 using namespace std;
 
