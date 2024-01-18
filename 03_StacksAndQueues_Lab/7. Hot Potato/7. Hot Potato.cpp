@@ -27,10 +27,6 @@ int main()
     int pass;
     cin >> pass;
     int counter = 0;
-    
-    //while(true) {
-    //queue<string>temp;
-
 
     queue<string>temp;
 
@@ -60,41 +56,6 @@ int main()
             }
         }
     }
-    
-
-
-
-
-
-
-   /* while (!names.empty()) {
-        if (counter != pass) {
-            temp.push(names.front());
-            names.pop();
-            counter++;
-            if (names.empty()) {
-                names = temp;
-            }
-        }
-        else if (counter==)
-
-
-
-        for (int i = 1; i <= pass; i++) {
-            
-            
-            
-            if (names.empty()) {
-                names = temp;
-            }
-            if (names!.empty())
-            temp.push(names.front());
-            names.pop();
-        }
-        cout <<"Removed "<< names.front() << endl;
-        names.pop();
-    }
-    cout << temp.front() << endl;*/
 
     return 0;
 }

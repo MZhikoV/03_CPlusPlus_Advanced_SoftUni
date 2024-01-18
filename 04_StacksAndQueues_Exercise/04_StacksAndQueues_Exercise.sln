@@ -17,8 +17,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06. Truck Tour", "06. Truck
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07. Balanced Parenthesis", "07. Balanced Parenthesis\07. Balanced Parenthesis.vcxproj", "{7F6B7CB4-739C-4D01-8183-D899B8368EB5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{EF9FF797-D1F6-44E5-AB2C-FACBC42F2728}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -83,14 +81,6 @@ Global
 		{7F6B7CB4-739C-4D01-8183-D899B8368EB5}.Release|x64.Build.0 = Release|x64
 		{7F6B7CB4-739C-4D01-8183-D899B8368EB5}.Release|x86.ActiveCfg = Release|Win32
 		{7F6B7CB4-739C-4D01-8183-D899B8368EB5}.Release|x86.Build.0 = Release|Win32
-		{EF9FF797-D1F6-44E5-AB2C-FACBC42F2728}.Debug|x64.ActiveCfg = Debug|x64
-		{EF9FF797-D1F6-44E5-AB2C-FACBC42F2728}.Debug|x64.Build.0 = Debug|x64
-		{EF9FF797-D1F6-44E5-AB2C-FACBC42F2728}.Debug|x86.ActiveCfg = Debug|Win32
-		{EF9FF797-D1F6-44E5-AB2C-FACBC42F2728}.Debug|x86.Build.0 = Debug|Win32
-		{EF9FF797-D1F6-44E5-AB2C-FACBC42F2728}.Release|x64.ActiveCfg = Release|x64
-		{EF9FF797-D1F6-44E5-AB2C-FACBC42F2728}.Release|x64.Build.0 = Release|x64
-		{EF9FF797-D1F6-44E5-AB2C-FACBC42F2728}.Release|x86.ActiveCfg = Release|Win32
-		{EF9FF797-D1F6-44E5-AB2C-FACBC42F2728}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
