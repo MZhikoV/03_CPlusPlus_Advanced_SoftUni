@@ -10,22 +10,22 @@ using namespace std;
 
 int main()
 {
-	vector<int> numbers;
+	vector<double> numbers;
 
 	string input;
 	getline(cin, input);
 
 	istringstream inp(input);
 
-	int number;
+	double number;
 	while (inp >> number) {
 		numbers.push_back(number);
 	}
 
-	sort(numbers.begin(), numbers.end(), greater<int>());
+	sort(numbers.begin(), numbers.end(), greater<double>());
 
 	int counter = 0;
-	for (int num : numbers) {
+	for (double num : numbers) {
 		if (counter == 3) {
 			break;
 		}
