@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06. Unique Usernames", "06.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07. Sets of Elements", "07. Sets of Elements\07. Sets of Elements.vcxproj", "{A3E6E76E-F53E-4AAE-9DDD-BF22498E1E29}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08. Even Times", "08. Even Times\08. Even Times.vcxproj", "{86E6EA55-D024-4000-9733-9631556ABF6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{A3E6E76E-F53E-4AAE-9DDD-BF22498E1E29}.Release|x64.Build.0 = Release|x64
 		{A3E6E76E-F53E-4AAE-9DDD-BF22498E1E29}.Release|x86.ActiveCfg = Release|Win32
 		{A3E6E76E-F53E-4AAE-9DDD-BF22498E1E29}.Release|x86.Build.0 = Release|Win32
+		{86E6EA55-D024-4000-9733-9631556ABF6E}.Debug|x64.ActiveCfg = Debug|x64
+		{86E6EA55-D024-4000-9733-9631556ABF6E}.Debug|x64.Build.0 = Debug|x64
+		{86E6EA55-D024-4000-9733-9631556ABF6E}.Debug|x86.ActiveCfg = Debug|Win32
+		{86E6EA55-D024-4000-9733-9631556ABF6E}.Debug|x86.Build.0 = Debug|Win32
+		{86E6EA55-D024-4000-9733-9631556ABF6E}.Release|x64.ActiveCfg = Release|x64
+		{86E6EA55-D024-4000-9733-9631556ABF6E}.Release|x64.Build.0 = Release|x64
+		{86E6EA55-D024-4000-9733-9631556ABF6E}.Release|x86.ActiveCfg = Release|Win32
+		{86E6EA55-D024-4000-9733-9631556ABF6E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
