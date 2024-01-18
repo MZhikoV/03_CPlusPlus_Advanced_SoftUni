@@ -13,31 +13,33 @@ int main()
 	int num;
 	cin >> num;
 
-	while (num > 0) {
+	while (num --) {
 		string name;
 		double grade;
 		cin >> name >> grade;
 
-		students[name].push_back(grade);
-
-
-		num--;
+	//	students[name].push_back(grade);
+		vector<double>& grades = students[name];
+		grades.push_back(grade);
 	}
 
-	for (pair<string, vector<double>>student : students) {
-		cout << student.first << " -> ";
+	auto it1 = students.begin();
+
+	for (; it1 != students.end(); it1++) {
+		cout << it1->first << " -> ";
+	
 		double sum = 0;
-		int count = 0;
 
 		cout.setf(ios::fixed);
 		cout.precision(2);
 
-		for (double gr : student.second) {
+		vector<double>& grades = it1->second;
+
+		for (double gr : grades) {
 			cout << gr << ' ';
 			sum += gr;
-			count++;
 		}
-		cout << "(avg: " << sum / count << ')' << endl;
+		cout << "(avg: " << sum / grades.size() << ')' << endl;
 	}
 	return 0;
 }
