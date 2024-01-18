@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Average Student Grades 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Cities by Continent and Country by D", "03. Cities by Continent and Country by D\03. Cities by Continent and Country by D.vcxproj", "{40BEC477-0143-4D5F-B310-A85E3EBE6667}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Parking Lot", "05. Parking Lot\05. Parking Lot.vcxproj", "{D383B88A-D549-4AFF-8962-AC06197B2563}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{40BEC477-0143-4D5F-B310-A85E3EBE6667}.Release|x64.Build.0 = Release|x64
 		{40BEC477-0143-4D5F-B310-A85E3EBE6667}.Release|x86.ActiveCfg = Release|Win32
 		{40BEC477-0143-4D5F-B310-A85E3EBE6667}.Release|x86.Build.0 = Release|Win32
+		{D383B88A-D549-4AFF-8962-AC06197B2563}.Debug|x64.ActiveCfg = Debug|x64
+		{D383B88A-D549-4AFF-8962-AC06197B2563}.Debug|x64.Build.0 = Debug|x64
+		{D383B88A-D549-4AFF-8962-AC06197B2563}.Debug|x86.ActiveCfg = Debug|Win32
+		{D383B88A-D549-4AFF-8962-AC06197B2563}.Debug|x86.Build.0 = Debug|Win32
+		{D383B88A-D549-4AFF-8962-AC06197B2563}.Release|x64.ActiveCfg = Release|x64
+		{D383B88A-D549-4AFF-8962-AC06197B2563}.Release|x64.Build.0 = Release|x64
+		{D383B88A-D549-4AFF-8962-AC06197B2563}.Release|x86.ActiveCfg = Release|Win32
+		{D383B88A-D549-4AFF-8962-AC06197B2563}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
