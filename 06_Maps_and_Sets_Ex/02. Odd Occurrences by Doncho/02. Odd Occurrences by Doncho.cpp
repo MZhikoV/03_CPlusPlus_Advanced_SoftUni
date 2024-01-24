@@ -38,7 +38,8 @@ int main()
 
     bool isFirst = true;
 
-    for (const string & element: order) {
+    for (const string & element: order) { 
+        //printing withou iterators and without copyibg the elements, just simple access with const -- &
 
         if (data[element] % 2) {
 

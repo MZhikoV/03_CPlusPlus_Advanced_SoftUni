@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07. Miners", "07. Miners\07
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Odd Occurrences by Doncho", "02. Odd Occurrences by Doncho\02. Odd Occurrences by Doncho.vcxproj", "{F9721AD9-D135-4DDB-8FC5-AE2C173C3CFF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Largest_3 by Doncho", "03. Largest_3 by Doncho\03. Largest_3 by Doncho.vcxproj", "{5555F286-EA12-4388-BEA1-5AACEDD6A511}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{F9721AD9-D135-4DDB-8FC5-AE2C173C3CFF}.Release|x64.Build.0 = Release|x64
 		{F9721AD9-D135-4DDB-8FC5-AE2C173C3CFF}.Release|x86.ActiveCfg = Release|Win32
 		{F9721AD9-D135-4DDB-8FC5-AE2C173C3CFF}.Release|x86.Build.0 = Release|Win32
+		{5555F286-EA12-4388-BEA1-5AACEDD6A511}.Debug|x64.ActiveCfg = Debug|x64
+		{5555F286-EA12-4388-BEA1-5AACEDD6A511}.Debug|x64.Build.0 = Debug|x64
+		{5555F286-EA12-4388-BEA1-5AACEDD6A511}.Debug|x86.ActiveCfg = Debug|Win32
+		{5555F286-EA12-4388-BEA1-5AACEDD6A511}.Debug|x86.Build.0 = Debug|Win32
+		{5555F286-EA12-4388-BEA1-5AACEDD6A511}.Release|x64.ActiveCfg = Release|x64
+		{5555F286-EA12-4388-BEA1-5AACEDD6A511}.Release|x64.Build.0 = Release|x64
+		{5555F286-EA12-4388-BEA1-5AACEDD6A511}.Release|x86.ActiveCfg = Release|Win32
+		{5555F286-EA12-4388-BEA1-5AACEDD6A511}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
