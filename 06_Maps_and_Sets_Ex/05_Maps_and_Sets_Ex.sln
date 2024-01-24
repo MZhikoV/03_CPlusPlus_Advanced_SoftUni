@@ -23,6 +23,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Largest_3 by Doncho", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Sort Numbers with Multi-Set", "05. Sort Numbers with Multi-Set\05. Sort Numbers with Multi-Set.vcxproj", "{4BA12883-CFBA-4305-AC58-AA0510274793}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06. Squares with MulriSet", "06. Squares with MulriSet\06. Squares with MulriSet.vcxproj", "{3A470E67-5C16-4C43-897E-2723074BE57F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07. Miners by D", "07. Miners by D\07. Miners by D.vcxproj", "{EF754965-DD25-4E8F-BAA2-1A3A4CB5B4EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +115,22 @@ Global
 		{4BA12883-CFBA-4305-AC58-AA0510274793}.Release|x64.Build.0 = Release|x64
 		{4BA12883-CFBA-4305-AC58-AA0510274793}.Release|x86.ActiveCfg = Release|Win32
 		{4BA12883-CFBA-4305-AC58-AA0510274793}.Release|x86.Build.0 = Release|Win32
+		{3A470E67-5C16-4C43-897E-2723074BE57F}.Debug|x64.ActiveCfg = Debug|x64
+		{3A470E67-5C16-4C43-897E-2723074BE57F}.Debug|x64.Build.0 = Debug|x64
+		{3A470E67-5C16-4C43-897E-2723074BE57F}.Debug|x86.ActiveCfg = Debug|Win32
+		{3A470E67-5C16-4C43-897E-2723074BE57F}.Debug|x86.Build.0 = Debug|Win32
+		{3A470E67-5C16-4C43-897E-2723074BE57F}.Release|x64.ActiveCfg = Release|x64
+		{3A470E67-5C16-4C43-897E-2723074BE57F}.Release|x64.Build.0 = Release|x64
+		{3A470E67-5C16-4C43-897E-2723074BE57F}.Release|x86.ActiveCfg = Release|Win32
+		{3A470E67-5C16-4C43-897E-2723074BE57F}.Release|x86.Build.0 = Release|Win32
+		{EF754965-DD25-4E8F-BAA2-1A3A4CB5B4EC}.Debug|x64.ActiveCfg = Debug|x64
+		{EF754965-DD25-4E8F-BAA2-1A3A4CB5B4EC}.Debug|x64.Build.0 = Debug|x64
+		{EF754965-DD25-4E8F-BAA2-1A3A4CB5B4EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{EF754965-DD25-4E8F-BAA2-1A3A4CB5B4EC}.Debug|x86.Build.0 = Debug|Win32
+		{EF754965-DD25-4E8F-BAA2-1A3A4CB5B4EC}.Release|x64.ActiveCfg = Release|x64
+		{EF754965-DD25-4E8F-BAA2-1A3A4CB5B4EC}.Release|x64.Build.0 = Release|x64
+		{EF754965-DD25-4E8F-BAA2-1A3A4CB5B4EC}.Release|x86.ActiveCfg = Release|Win32
+		{EF754965-DD25-4E8F-BAA2-1A3A4CB5B4EC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
