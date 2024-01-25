@@ -26,7 +26,7 @@ int main()
              sumS += arr[row-1-j][j];
             }
 
-int sum = abs(sumP + sumS);
+int sum = abs(sumP - sumS);
 
     cout << sum << endl;
     return 0;
