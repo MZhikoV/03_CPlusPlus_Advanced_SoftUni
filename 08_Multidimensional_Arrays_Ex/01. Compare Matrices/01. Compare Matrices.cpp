@@ -2,19 +2,37 @@
 //
 
 #include <iostream>
+#include <string>
+#include <sstream>
+
+using namespace std;
+
+int readMatrix() {
+    int arr1[10][10];
+    string input;
+    getline(cin, input);
+    int row = stoi(input);
+
+    for (size_t i = 0; i < row; i++) {
+        getline(cin, input);
+        istringstream inp(input);
+        int j = 0;
+        int temp;
+        while (inp >> temp) {
+            arr1[i][j] = temp;
+            j++;
+        }
+        return arr1;
+}
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    while (true) {
+        
+
+
+        }
+    }
+
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
