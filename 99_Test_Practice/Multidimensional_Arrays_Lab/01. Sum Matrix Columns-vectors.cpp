@@ -12,21 +12,30 @@ using namespace std;
 int main() {
     int rows,cols;
     cin>>rows>>cols;
-    int arr[rows][cols];
+    
+    //defining vector for 2d matrix
+    vector<vector<int>> arr;
+
+    //defining vector for result 
+    vector<int> result;
+
+    //resizing vectors, so they can have exactly "cols" number of columns
+    arr.resize(cols);
+    result.resize(cols);
+
 
     for (size_t r=0;r<rows;r++){
+        //resizing each vector, so it can have exactly number of rows
+        arr[r].resize(rows);
+
         for(size_t c=0;c<cols;c++){
             cin>>arr[r][c];
+            result[c]+=arr[r][c];
         }
     }
-
-    for(size_t c=0;c<cols;c++){
-        int sum=0;
-        for (size_t r=0;r<rows;r++){
-            sum+=arr[r][c];
-        }
-        cout<<sum<<endl;
-    }
+for (int num:result){
+    cout<<num<<endl;
+}
     
     return 0;
 }
