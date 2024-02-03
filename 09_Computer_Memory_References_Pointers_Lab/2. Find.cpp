@@ -41,5 +41,7 @@ int main() {
     else {
         cout<<it1->second<<' '<<it1->first<<endl;
     }
+
+    system("pause");
     return 0;
 }
