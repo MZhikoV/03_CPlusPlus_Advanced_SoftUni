@@ -5,6 +5,7 @@
 #include <set>
 #include <vector>
 #include <algorithm>
+#include <memory>
 
 using namespace std;
 
@@ -15,7 +16,7 @@ cin>>n>>m;
 
 int totalPos=n*m;
 
-int * flatMtrix= new int[totalPos];
+unique_ptr<int[]> flatMtrix= make_unique<int[]>(totalPos);
 
 for (int i=0;i<totalPos;i++) {
     cin>>flatMtrix[i];
@@ -30,8 +31,6 @@ for (int i=0;i<r;i++) {
     }
     cout<<endl;
 }
-
-delete[] flatMtrix;
-    system("pause");
+system("pause");
     return 0;
 }
