@@ -9,10 +9,10 @@ int main()
 	cin >> rows>> cols;
 	
 	//defining vector for 2D array
-	vector<vector<int>> matrix;
+	array<array<int>> matrix;
 	
 	//defining vector for results with size=columns number
-	vector<int> results;
+	array<int> results;
 	results.resize(cols);
 
 	//resizing the vector, so it can have elements same number as rows

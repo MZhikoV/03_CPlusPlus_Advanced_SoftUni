@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    map<string, map<string, vector<string>>> data;
+    map<string, map<string, array<string>>> data;
 
     int num;
     cin >> num;

@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	map <string, vector<double>> students;
+	map <string, array<double>> students;
 
 	int num;
 	cin >> num;
@@ -19,7 +19,7 @@ int main()
 		cin >> name >> grade;
 
 	//	students[name].push_back(grade);
-		vector<double>& grades = students[name];
+		array<double>& grades = students[name];
 		grades.push_back(grade);
 	}
 
@@ -33,7 +33,7 @@ int main()
 		cout.setf(ios::fixed);
 		cout.precision(2);
 
-		vector<double>& grades = it1->second;
+		array<double>& grades = it1->second;
 
 		for (double gr : grades) {
 			cout << gr << ' ';

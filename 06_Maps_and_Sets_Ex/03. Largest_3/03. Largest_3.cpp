@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-	vector<double> numbers;
+	array<double> numbers;
 
 	string input;
 	getline(cin, input);

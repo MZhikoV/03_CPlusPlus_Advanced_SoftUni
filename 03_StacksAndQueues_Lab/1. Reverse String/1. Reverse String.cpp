@@ -8,9 +8,9 @@
 using namespace std;
 
 //vector function for reading a vector values from the console
-vector<string> readInput() {
+array<string> readInput() {
 
-	vector<string>words;
+	array<string>words;
 	string input;
 
 	getline(cin, input);
@@ -27,7 +27,7 @@ vector<string> readInput() {
 }
 
 //function for defining a stack and printing the words in reverse order
-void printWordsReversed(const vector<string>& words) {
+void printWordsReversed(const array<string>& words) {
 	stack<string>reversedWords;
 
 	for (const string word : words) {
@@ -42,9 +42,9 @@ void printWordsReversed(const vector<string>& words) {
 }
 
 //function for reversing the letters in a string
-vector <string> revChars(vector<string>& words) {
+array <string> revChars(array<string>& words) {
 	stack<char>revCharStack;
-	vector<string>revCharV;
+	array<string>revCharV;
 	
 
 	for (string word : words) {
@@ -65,7 +65,7 @@ vector <string> revChars(vector<string>& words) {
 
 int main()
 {
-	vector<string> words = readInput();
+	array<string> words = readInput();
 
 	words = revChars(words);
 

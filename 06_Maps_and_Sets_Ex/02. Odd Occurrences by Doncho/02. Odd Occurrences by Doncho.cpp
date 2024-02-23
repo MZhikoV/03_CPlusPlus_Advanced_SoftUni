@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
     map<string, int> data;
-    vector<string>order;
+    array<string>order;
 
     string input;
     getline(cin, input);

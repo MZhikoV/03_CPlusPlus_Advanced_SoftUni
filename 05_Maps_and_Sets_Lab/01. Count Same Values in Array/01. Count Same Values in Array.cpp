@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
     map<double, int> occurances;
-    vector <double> order;
+    array <double> order;
 
     string input;
     getline(cin, input);
@@ -21,7 +21,7 @@ int main()
     while (inp >> num) {
         occurances[num]++;
         if (!order.empty()) {
-            vector<double>::iterator it1= find(order.begin(), order.end(), num);
+            array<double>::iterator it1= find(order.begin(), order.end(), num);
             if (it1 == order.end()) {
                 order.push_back(num);
             }

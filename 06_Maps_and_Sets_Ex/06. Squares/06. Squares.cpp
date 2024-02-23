@@ -19,7 +19,7 @@ bool isSquareCheck(int a) {
 
 int main()
 {
-    vector<int>numbers;
+    array<int>numbers;
 
     string input;
     getline(cin, input);

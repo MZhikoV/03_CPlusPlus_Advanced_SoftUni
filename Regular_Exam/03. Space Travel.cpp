@@ -64,6 +64,7 @@ int main()
     cin.ignore();
     string input;
     int totSum = 0;
+
     while (getline(cin, input) && input != "END")
     {
         vector<int> travelIdx;
@@ -90,7 +91,6 @@ int main()
                 prev = *it1;
             }
         }
-
        cout << sum << endl;
         totSum += sum;
     }

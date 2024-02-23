@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	map <string, vector<double>> students;
+	map <string, array<double>> students;
 
 	int num;
 	cin >> num;
@@ -24,7 +24,7 @@ int main()
 		num--;
 	}
 
-	for (pair<string, vector<double>>student : students) {
+	for (pair<string, array<double>>student : students) {
 		cout << student.first << " -> ";
 		double sum = 0;
 		int count = 0;

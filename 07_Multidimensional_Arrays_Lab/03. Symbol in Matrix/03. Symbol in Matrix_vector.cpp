@@ -9,7 +9,7 @@ int main()
     int dim;
     cin >> dim;
    
-   vector<vector<char>> arr;
+   array<array<char>> arr;
 
    arr.resize(dim);
     for (size_t i = 0; i < dim; i++) {

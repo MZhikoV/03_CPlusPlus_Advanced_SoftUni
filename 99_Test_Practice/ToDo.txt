@@ -1,0 +1,13 @@
+Stacks and Queues - Lab:
+3. Simple Calculator
+4. Matching Brackets
+
+
+Stacks_and_Queues_Exercise:
+06. Truck Tour - ново решение + това на Дончо
+07. Balanced Parenthesis - решение в Джъдж
+
+Map_and_Set_Lab:
+01. Count Same Values in Array
+02. Average Student Grades
+03. Cities by Continent and Country

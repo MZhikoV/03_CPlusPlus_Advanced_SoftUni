@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    vector<string> names;
+    array<string> names;
 
     int num;
     cin >> num;
